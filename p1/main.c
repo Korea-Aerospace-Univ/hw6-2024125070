@@ -11,7 +11,7 @@ int main(void)
         scanf("%c", p);
     }
     
-    char result = ch[0];    // 가장 많이 나타난 문자를 저장할 변수
+    char result = '\0';    // 가장 많이 나타난 문자를 저장할 변수
     int maxCount = 0;        // 최대 빈도수 저장 변수
     
     // 빈도수 계산을 위한 중첩 루프
