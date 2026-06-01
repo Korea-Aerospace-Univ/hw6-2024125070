@@ -4,8 +4,8 @@ int main(void)
 {
     char arr[10];   // 10개의 영문자 저장 배열
     char *p;        // 입력용 포인터
-    char *outer_p;  // 외부 루프(기준 문자) 포인터
-    char *inner_p;  // 내부 루프(비교 문자) 포인터
+    char *outer_p = nullptr;  // 외부 루프(기준 문자) 포인터
+    char *inner_p = nullptr;  // 내부 루프(비교 문자) 포인터
     
     int maxCount = 0; // 최대 빈도수
     int maxIndex = 0; // 최대 빈도 문자의 인덱스
